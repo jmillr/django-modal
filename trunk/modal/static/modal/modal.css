@@ -1,0 +1,50 @@
+#modal {
+    position: absolute;
+    top: 15%; left: 15%;
+    border: 3px solid #999;
+    background-color: #FFF;
+    display: none;
+}
+#modal-body {
+    padding: 10px;
+}
+
+#modal .inherit input[type="submit"] {
+    color: blue;
+}
+#modal-title {
+    margin: 0; padding: 5px;
+    background-color: #EEE;
+    border-bottom: 1px solid #CCC;
+}
+#modal-title h1 {
+    margin: 0; padding: 0;
+    font-size: 110%;
+    color: #666;
+}
+
+#modal-title .close-modal {
+    float: right;
+    font-size: 80%;
+    font-weight: normal;
+    margin-top: -1em;
+}
+#modal h1 {
+    border-bottom: 1px solid #EEE;
+    font-size: 120%;
+}
+#modal {
+    font-size: 90%;
+    width: 70%;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    z-index: --100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.75;
+}
