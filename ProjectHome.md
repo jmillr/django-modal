@@ -1,0 +1,1 @@
+Make facebook like modal windows without messing with your existing views, just add a middleware class and a ContextProcessor and start enjoying modal windows~
